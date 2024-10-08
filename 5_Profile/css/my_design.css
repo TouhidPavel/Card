@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: century gothic;
+  //background: rgba(23,45,34,0.6);
+}
+.container{
+  position: absolute;
+  background: #fff;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-shadow: 0 0 20px #000000b3;
+}
+.container .header{
+  height: 250px;
+  position: relative;
+}
+.header img{
+  height: 100%;
+  width: 100%;
+}
+.header .shadow{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e4a7af;
+  opacity: 0.3;
+}
+.header .name{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.header .name h2{
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.header .name h3{
+  font-size: 35px;
+  color: #fff;
+}
+.main{
+  padding: 15px 30px;
+  overflow: hidden;
+}
+.main h1{
+  text-align: center;
+  color:#b09a08;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #720cf1;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.main .left{
+  float: left;
+  width: 250px;
+  overflow: hidden;
+}
+.main .left p{
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+}
+.main .right{
+  float: right;
+  overflow: hidden;
+}
+.right .item{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.right .item:last-child{
+  margin-bottom: 0;
+}
+.item span{
+  display: block;
+}
+.num{
+  font-size: 28px;
+  font-weight: bold;
+}
+.word{
+  font-size: 15px;
+  font-weight: 400;
+}
+.social_icon{
+  background: #0fb9c9;
+  padding: 5px 0;
+  text-align: center;
+}
+.social_icon a{
+  display: inline-block;
+  margin: 0 5px;
+}
+.social_icon .fa{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  transition: all 0.4s linear;
+}
+.social_icon .fa:hover{
+  border-radius: 50%;
+  color: #07a145;
+  background: #fff;
+}
